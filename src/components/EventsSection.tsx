@@ -16,6 +16,13 @@ const EventsSection = () => {
       time: '20h30',
       year: 2025
     },
+    {
+      date: '25 Décembre',
+      title: 'Soirée de Noël',
+      location: 'Millau',
+      time: '20h30',
+      year: 2025
+    },
   ];
 
   const eventsByYear = events.reduce((acc, event) => {
